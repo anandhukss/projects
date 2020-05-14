@@ -1,0 +1,23 @@
+body{
+background-image: url('thor.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 40%;
+    background-repeat: no-repeat;
+}
+.container{
+    margin-top: 300px ;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+     opacity: 0.6;
+}
+.logout{
+  margin-left: 1400px;
+    margin-top: 10px;
+    display: inline-block;
+}
+a:hover{
+    color: red;
+}
