@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<section class="calculator">
+    <form><input  type="text" name="" id="screen" class="screen"></form>
+<div class="button">
+<!--yellow-->
+<button type="button" onclick="multiply()" class="btn btn-yellow" data-num="*">*</button>
+<button type="button" onclick="divide()" class="btn btn-yellow" data-num="/">/</button>
+<button type="button" onclick="subtract()" class="btn btn-yellow" data-num="-">-</button>
+<button type="button" onclick="add()" class="btn btn-yellow" data-num="+">+</button>
+<!--grey-buttons-->
+<button type="button" onclick="remove()" class="btn btn-clear btn-grey" data-num="0">c</button>
+<button type="button" onclick="zero()" class="btn btn-grey" value="0">0</button>
+<button type="button" onclick="nine()" class="btn btn-grey" value="9">9</button>
+<button type="button" onclick="eight()" class="btn btn-grey" value="8">8</button>
+<button type="button" onclick="seven()" class="btn btn-grey" value="7">7</button>
+<button type="button" onclick="six()" class="btn btn-grey" value="6">6</button>
+<button type="button" onclick="five()" class="btn btn-grey" value="5">5</button>
+<button type="button" onclick="four()" class="btn btn-grey" value="4">4</button>
+<button type="button" onclick="three()" class="btn btn-grey" value="3">3</button>
+<button type="button" onclick="two()" class="btn btn-grey" value="2">2</button>
+<button type="button" onclick="one()" class="btn btn-grey" value="1">1</button>
+<button type="button"  onclick="dot()" class="btn btn-grey" ="0">.</button>
+<button type="button" onclick="result()" class="btn btn-equal btn-grey">=</button>
+</div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
