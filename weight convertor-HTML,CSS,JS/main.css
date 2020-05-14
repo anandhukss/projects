@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #d17979;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(black,green,yellow);
+    box-shadow: 10px 10px #0edf5873;
+
+  
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 60px;
+    color: #0feb90;
+    margin-top: 10px;
+
+}
+input{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:black;
+}
+select{
+    margin-left: 50px;
+    width: 154px;
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+}
+#resultTYPE{
+    margin-left: 50px;
+}
